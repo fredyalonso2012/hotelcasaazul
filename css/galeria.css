@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Estilo para las imágenes */
+.gallery-image {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para los títulos */
+.text-dark {
+    color:  #04111a;
+    font-weight: bold;
+}
+
+/* Estilo para el contenedor principal */

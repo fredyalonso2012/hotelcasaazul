@@ -1,0 +1,70 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos generales del carrusel */
+#carouselE {
+    width: 10;/* Ancho del carrusel */
+    margin: 0 auto; /* Centrar el carrusel en la página */
+}
+  
+  /* Estilos para imágenes del carrusel */
+.carousel-item img {
+  display: block;
+  padding: 1%;
+  width: 700px;/* Ancho de las imágenes del carrusel */
+  height: 400px; /* Alto de las imágenes del carrusel (ajustar según deseado) */
+  object-fit: cover; /* Mantener la proporción de la imagen, cubriendo todo el espacio disponible */
+  border-radius: 20px;
+  opacity: 0.5;
+  filter: contrast(1) saturate(2) ;
+}
+
+  
+  /* Estilos para el carrusel en modo escritorio */
+@media (min-width: 768px) {
+    /* Ajustar ancho del carrusel para pantallas más grandes */
+    #carouselE {
+      width: 80%;
+    }
+  
+    /* Ajustar alto de las imágenes del carrusel para pantallas más grandes */
+    .carousel-item img {
+      height: 500px; /* Ajustar según deseado */
+    }
+}
+
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: black  ;
+}
+
+h4 {
+  font-size: 1.8rem;  
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.btn {
+    margin: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,294 @@
+*{
+    font-family: Arial, sans-serif ;
+}
+
+body {
+   background: #161815;
+    
+}  
+
+.section-padding {
+    padding: 70px 0;
+}
+
+.services .card-body i {
+    font-size: 50px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img {    
+        height: 400px;
+        object-fit: cover;
+    }
+    .carousel-item {
+        height: 70vh;
+    }
+    .w-100 {
+        height: 70vh;
+    }
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.5;
+        font-size: 12px;
+    }
+    .about-text {
+        padding-top: 50px;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+    .section-padding  {
+        padding: 50px 0;
+    }
+}
+
+/* Estilo para las tarjetas de servicios */
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para los íconos */
+.card-body i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Estilo para los títulos de las tarjetas */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Estilo para los botones "Más información" */
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* styles.css */
+
+/* Estilo para la imagen */
+.about-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el texto */
+.about-text {
+    padding-left: 2rem; /* Espacio a la izquierda para la columna de texto */
+}
+
+.about-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* styles.css */
+
+/* Estilo para la sección de información de contacto */
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Estilo para los títulos */
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Estilo para los campos del formulario */
+    .form-label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 1rem;
+    }
+
+/* Estilo para el botón de enviar */
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* styles.css */
+
+/* Estilo para el footer */
+footer {
+    background-color: #343a40;
+    padding: 1rem 0;
+}
+
+/* Estilo para el texto */
+.text-white {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Estilo para los íconos de redes sociales */
+.social-icons a {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007BFF;
+}
+
+/* styles.css */
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #007BFF;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para el enlace de la marca */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Estilo para los enlaces del menú */
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3;
+}
+
+/* Estilo para los elementos del menú desplegable */
+.dropdown-menu {
+    background-color: #007BFF;
+}
+
+.dropdown-item {
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #0056b3;
+}
+
+/* styles.css */
+
+/* Estilo para la imagen */
+.about-img img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+/* Efecto al pasar el cursor sobre la imagen */
+.about-img img:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+/* Estilos generales del carrusel */
+#carouselE {
+    width: 100%; /* Ancho del carrusel */
+    margin: 0 auto; /* Centrar el carrusel en la página */
+  }
+  
+  /* Estilos para indicadores de carrusel */
+  .carousel-indicators {
+    position: absolute; /* Posicionar los indicadores de forma absoluta */
+    bottom: 0; /* Colocar los indicadores en la parte inferior */
+    left: 50%; /* Centrar los indicadores horizontalmente */
+    transform: translateX(-50%); /* Ajustar la posición horizontal */
+    margin-bottom: 20px; /* Añadir espacio inferior */
+  }
+  
+  .carousel-indicators button {
+    width: 12px; /* Ancho de los indicadores */
+    height: 12px; /* Alto de los indicadores */
+    margin: 4px; /* Espacio entre indicadores */
+    background-color: #ccc; /* Color de fondo de los indicadores */
+    border: 1px solid #ccc; /* Borde de los indicadores */
+    border-radius: 50%; /* Forma circular de los indicadores */
+    opacity: 0.5; /* Opacidad inicial */
+    transition: opacity 0.3s ease; /* Animación de opacidad */
+  }
+  
+  .carousel-indicators button.active {
+    opacity: 1; /* Opacidad completa para el indicador activo */
+    background-color: #007bff; /* Color de fondo para el indicador activo */
+    border-color: #007bff; /* Color de borde para el indicador activo */
+  }
+  
+  /* Estilos para imágenes del carrusel */
+  .carousel-item img {
+    width: 100%; /* Ancho de las imágenes del carrusel */
+    height: 400px; /* Alto de las imágenes del carrusel (ajustar según deseado) */
+    object-fit: cover; /* Mantener la proporción de la imagen, cubriendo todo el espacio disponible */
+  }
+  
+  /* Estilos para el carrusel en modo escritorio */
+  @media (min-width: 768px) {
+    /* Ajustar ancho del carrusel para pantallas más grandes */
+    #carouselE {
+      width: 80%;
+    }
+  
+    /* Ajustar alto de las imágenes del carrusel para pantallas más grandes */
+    .carousel-item img {
+      height: 500px; /* Ajustar según deseado */
+    }
+  }
+  

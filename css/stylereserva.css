@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, sans-serif;
+}
+.asterisk {
+    color: red;
+    border: none;
+    text-decoration: none !important;
+}
+
+.select-country {
+    padding: 9px;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: rgb(211, 211, 211);
+}
+
+.calling-code {
+    position: absolute;
+    width: 34vh;
+    height: 36px;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: rgb(211, 211, 211);
+}
+
+.form-label {
+    margin: 2.5%;
+    padding: 2px
+}
+
+.text-tarea {
+    margin: 2%;
+    padding: 1px;
+}
+
+.btn {
+    margin: 3%;
+}
+
